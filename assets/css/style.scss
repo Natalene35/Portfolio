@@ -1,0 +1,221 @@
+@use 'variables';
+@use 'mixins';
+
+
+body {
+    background-color: rgb(46, 46, 49);
+    background-color: #1d1d1f;
+    color: whitesmoke;
+    color: #c8c7ca;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1400px;
+    margin: 0 auto;
+
+
+    .feinte1 {
+        @include mixins.trick;
+        border-width: 8px 0 0 8px;
+    }
+
+    header {
+        margin-top: -7rem;
+        margin-left: 0.7rem;
+
+
+        /* Barre de navigation */
+        img {
+            width: 4rem;
+            height: auto;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            margin: 1rem;
+
+            #navbar {
+                display: flex;
+                align-items: center;
+
+                a {
+                    margin: 0.5rem;
+                    color: whitesmoke;
+                    transition: transform 0.5s;
+                }
+
+                a:hover {
+                    transform: scale(1.3);
+                }
+            }
+        }
+    }
+
+    /* Contenu du body */
+
+    .body-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: 0.8rem;
+    }
+
+    /* Contenu du main */
+
+    main {
+        margin: 1.2rem;
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+
+        p {
+            border-left: 1px solid transparent;
+            @include mixins.em($direction : to top);
+            width: fit-content;
+            padding-left: 2rem;
+            margin-right: 1rem;
+
+            &:hover {
+                @include mixins.em;
+            }
+        }
+    }
+
+    h1 {
+        font-weight: 400;
+        font-size: 3rem;
+        margin-left: -10px;
+        margin-bottom: 4rem;
+    }
+
+    /* Contenu du aside */
+
+    aside {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+
+        h2 {
+            font-weight: 100;
+            font-size: 1.7rem;
+        }
+
+        .aside-content {
+            display: flex;
+            flex-direction: column;
+            max-width: 13rem;
+            padding: 2rem;
+            margin-top: -5rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: #c8c7ca;
+            margin-bottom: 1rem;
+            padding-bottom: 0.3rem;
+            @include mixins.em($direction : to left, $repeat: repeat-x, $size: 100% 1px);
+            width: fit-content;
+            transition: transform 0.3s;
+
+            // selecteur imbriqué, équivalent à this(reprend le a)
+            &:hover {
+                @include mixins.em($direction : to right, $repeat: repeat-x, $size: 100% 1px);
+                transform: scale(1.1);
+            }
+        }
+
+
+
+    }
+
+    /* Autre facon de faire le linear gradient sur une bordure */
+
+    /* aside a {
+    text-decoration: none;
+    color: #c8c7ca;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    padding-bottom:5px;
+    margin-bottom:20px;
+    width:fit-content;
+    border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1;
+    transition: 0.3s ease-in-out;
+}  */
+
+    .feinte2 {
+        @include mixins.trick($w: 5rem, $h: 5rem);
+        border-width: 3px 0 0 3px;
+    }
+
+    footer {
+        text-align: center;
+        margin-bottom: -5rem;
+    }
+
+    .feinte3 {
+        position: absolute;
+        right: 0;
+        border-width: 0 8px 8px 0;
+        @include mixins.trick ($degre: 315deg);
+    }
+}
+
+@media screen and (min-width: 900px) {
+    body {
+        margin: 0 auto;
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+        position: relative;
+
+
+        .feinte1 {
+            width: 15rem;
+            height: 15rem;
+            border-width: 15px 0 0 15px;
+        }
+
+        header {
+            margin-top: -14rem;
+            margin-left: 2rem
+        }
+
+        .body-content {
+            flex-direction: row;
+            font-size: 1rem;
+            margin-top: 4rem;
+            margin-left: 4rem;
+
+            main {
+                width: 60%;
+            }
+
+            h1 {
+                font-size: 5rem;
+            }
+
+            aside {
+                margin-right: 5rem;
+            }
+
+            h2 {
+                font-size: 2.5rem;
+            }
+        }
+
+        footer {
+            text-align: right;
+            margin-right: 2rem;
+            position: absolute;
+            margin-bottom: -15rem;
+            bottom: 0;
+            right: 0;
+        }
+
+        .feinte3 {
+            width: 15rem;
+            height: 15rem;
+            border-style: solid;
+            border-width: 0 15px 15px 0;
+            border-image: linear-gradient(315deg, variables.$pink, variables.$yellow 70%) 1;
+        }
+    }
+}

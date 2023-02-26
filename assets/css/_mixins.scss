@@ -1,0 +1,17 @@
+@use 'variables';
+
+@mixin trick ($w: 7rem, $h: 7rem, $degre: 135deg) {
+    width: $w;
+    height: $h;
+    border-style: solid;
+    border-image: linear-gradient($degre, variables.$pink, variables.$yellow 70%) 1;
+}
+
+@mixin em ($direction : to bottom, $repeat: no-repeat, $size: 1px 100%) {
+    background: linear-gradient($direction, variables.$pink, variables.$yellow 100%);
+    background-position: 0 100%;
+    background-size: $size;
+    background-repeat: $repeat;
+}
+
+

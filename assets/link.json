@@ -1,0 +1,46 @@
+{
+  "portfolio": [
+    {
+      "nom": "Portfolio",
+      "text": "<p> Ce portfolio, créé de façon minimaliste a été réalisé avec HTML,CSS JavaScript et construit en une seule page (one single page).<br> <br> Plutôt que d’utiliser plusieurs mises en page du site, il fournit toutes les informations essentielles sur une seule page, à commencer par son travail jusqu’aux coordonnées. C’est un excellent exemple de la façon de mettre en valeur vos compétences et votre expérience de manière minimaliste.</p>",
+      "site": "http://api.jquery.com/prop/",
+      "github": "#"
+    }
+  ],
+
+  "diceRoll": [
+    {
+      "nom": "DiceRoll",
+      "text": "<p>Petit site de lancé de dé réalisé en HTML, CSS et JavaScript.<br><br> Pour le moment, il est possible de lancer un dé de 6, 10 ou 20 faces. Il sera bientôt possible de tirer plusieurs dés en même temps et de jouer à deux.</p>",
+      "site": "#",
+      "github": "#"
+    }
+  ],
+
+  "passPhrase": [
+    {
+      "nom": "PassPhrase",
+      "text": "<p>Petit site réalisé en HTML, CSS et JavaScript permettant, à partir d'un texte, de générer une phrase utilisable comme un mot de passe<br> <br> Il est possible d'apporter son propre texte ou de laisser le texte par défaut. Le programme choisi 5 mots au hasard, les acole et les fait commencer par une majuscule. Quelques améliorations sont prévues.</p>",
+      "site": "#",
+      "github": "#"
+    }
+  ],
+
+  "ape": [
+    {
+      "nom": "Ape",
+      "text": "<p>Petit site réalisé en HTML, CSS et JavaScript permettant, à partir d'un texte, de générer une phrase utilisable comme un mot de passe<br> <br> Il est possible d'apporter son propre texte ou de laisser le texte par défaut. Le programme choisi 5 mots au hasard, les acole et les fait commencer par une majuscule. Quelques améliorations sont prévues.</p>",
+      "site": "#",
+      "github": "#"
+    }
+  ],
+
+  "spp": [
+    {
+      "nom": "Spp",
+      "text": "<p>Petit site réalisé en HTML, CSS et JavaScript permettant, à partir d'un texte, de générer une phrase utilisable comme un mot de passe<br> <br> Il est possible d'apporter son propre texte ou de laisser le texte par défaut. Le programme choisi 5 mots au hasard, les acole et les fait commencer par une majuscule. Quelques améliorations sont prévues.</p>",
+      "site": "#",
+      "github": "#"
+    }
+  ]
+}
