@@ -14,18 +14,27 @@ jQuery(document).ready(function ($) {
     }
 
     function abonnement() {
-        $("#portfolio").on("click", function () {
-           displayPortfolio();
+        $(".demo").on("click", function () {
+            displayData();
         });
     }
 
-    async function displayData(e) {
+    async function displayData() {
         data = await callApi();
-    
-        $(".demo").each(function (e) {
-            if ($("a").id == data.nom) {
-                console.log("target : " + e.currentTarget);
-            }
+        
+        $(".demo").each(function (index) {
+            let linkId = $(this).attr('id');
+            console.log("nom id : " + linkId);
+
+            console.log(data.sites[index]);
+          
+            // N'affiche que la derniere donnée du json
+            $("h1").remove();
+            if("h2") $("h2").remove();
+            $("#home").append("<h2>" + data.sites[index].nom + "</h2>");
+            $("main p").remove();
+            $("#home").append(data.sites[index].text);
+            $("#home").append(webLink).attr("href", data.sites[index].site);
         });
     }
 
@@ -37,6 +46,8 @@ jQuery(document).ready(function ($) {
         $("#home").append(data.portfolio[0].text);
         $("#home").append(webLink).attr("href", "https://www.w3schools.com/jquery/html_prop.asp");
     }
+  
 
-    window.onload = displayData;
+    
+    
 })
