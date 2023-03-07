@@ -14,17 +14,21 @@ jQuery(document).ready(function ($) {
     }
 
     function abonnement() {
-        $(".demo").on("click", function () {
-            displayData();
+        $(".demo").on("click", function (e) {
+            displayData(e);
         });
     }
 
-    async function displayData() {
+    async function displayData(e) {
         data = await callApi();
+
+        let linkElmt = e.currentTarget.id;
+        console.log(linkElmt);
+        //console.log("current target : " + e.currentTarget);
+       $(".demo").each(function (index) {
+            //Selectionne l'id des a
+            if(linkElmt == data.sites[index].nom) {
         
-        $(".demo").each(function (index) {
-            let linkId = $(this).attr('id');
-            console.log("nom id : " + linkId);
 
             console.log(data.sites[index]);
           
@@ -35,7 +39,8 @@ jQuery(document).ready(function ($) {
             $("main p").remove();
             $("#home").append(data.sites[index].text);
             $("#home").append(webLink).attr("href", data.sites[index].site);
-        });
+        }
+       });
     }
 
     async function displayPortfolio() {
