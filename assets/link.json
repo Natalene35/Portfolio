@@ -3,36 +3,36 @@
     {
       "nom": "Portfolio",
       "text": "<p> Ce portfolio, créé de façon minimaliste a été réalisé avec HTML,CSS JavaScript et construit en une seule page (one single page).<br> <br> Plutôt que d’utiliser plusieurs mises en page du site, il fournit toutes les informations essentielles sur une seule page, à commencer par son travail jusqu’aux coordonnées. C’est un excellent exemple de la façon de mettre en valeur vos compétences et votre expérience de manière minimaliste.</p>",
-      "site": "http://api.jquery.com/prop/",
-      "github": "#"
+      "site": "#",
+      "github": "https://github.com/Natalene35/Portfolio"
     },
 
     {
       "nom": "DiceRoll",
       "text": "<p>Petit site de lancé de dé réalisé en HTML, CSS et JavaScript.<br><br> Pour le moment, il est possible de lancer un dé de 6, 10 ou 20 faces. Il sera bientôt possible de tirer plusieurs dés en même temps et de jouer à deux.</p>",
-      "site": "#",
-      "github": "#"
+      "site": "https://natalene35.github.io/Dice-roll/",
+      "github": "https://github.com/Natalene35/Dice-roll"
     },
 
     {
       "nom": "PassPhrase",
       "text": "<p>Petit site réalisé en HTML, CSS et JavaScript permettant, à partir d'un texte, de générer une phrase utilisable comme un mot de passe<br> <br> Il est possible d'apporter son propre texte ou de laisser le texte par défaut. Le programme choisi 5 mots au hasard, les acole et les fait commencer par une majuscule. Quelques améliorations sont prévues.</p>",
-      "site": "#",
-      "github": "#"
+      "site": "https://natalene35.github.io/Passphrase-generator/",
+      "github": "https://github.com/Natalene35/Passphrase-generator"
     },
 
     {
       "nom": "Ape",
       "text": "<p>Site réalisé en équipe et JavaScript permettant, à partir d'un texte, de générer une phrase utilisable comme un mot de passe<br> <br> Il est possible d'apporter son propre texte ou de laisser le texte par défaut. Le programme choisi 5 mots au hasard, les acole et les fait commencer par une majuscule. Quelques améliorations sont prévues.</p>",
-      "site": "#",
-      "github": "#"
+      "site": "https://apecrosmieres.fr/",
+      "github": "https://github.com/Natalene35/APE-Crosmieres"
     },
 
     {
       "nom": "Spp",
       "text": "<p>Site réalisé pour un garage et JavaScript permettant, à partir d'un texte, de générer une phrase utilisable comme un mot de passe<br> <br> Il est possible d'apporter son propre texte ou de laisser le texte par défaut. Le programme choisi 5 mots au hasard, les acole et les fait commencer par une majuscule. Quelques améliorations sont prévues.</p>",
       "site": "#",
-      "github": "#"
+      "github": "https://github.com/Natalene35/SPP"
     }
   ]
 }

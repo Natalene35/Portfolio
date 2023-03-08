@@ -68,6 +68,16 @@ body main {
   font-size: 0.9rem;
   line-height: 1.3rem;
 }
+body main h1 {
+  font-weight: 400;
+  font-size: 3rem;
+  margin-left: -10px;
+  margin-bottom: 4rem;
+}
+body main h3 {
+  font-size: 1.7rem;
+  font-weight: 400;
+}
 body main p {
   border-left: 1px solid transparent;
   background: linear-gradient(to top, #f8056e, #f3af03 100%);
@@ -85,11 +95,23 @@ body main p:hover {
   background-size: 1px 100%;
   background-repeat: no-repeat;
 }
-body h1 {
-  font-weight: 400;
-  font-size: 3rem;
-  margin-left: -10px;
-  margin-bottom: 4rem;
+body main a {
+  text-decoration: none;
+  margin-left: 2rem;
+  color: whitesmoke;
+  padding-bottom: 0.3rem;
+  background: linear-gradient(to left, #f8056e, #f3af03 100%);
+  background-position: 0 100%;
+  background-size: 100% 1px;
+  background-repeat: repeat-x;
+  transition: transform 0.3s;
+}
+body main a:hover {
+  background: linear-gradient(to right, #f8056e, #f3af03 100%);
+  background-position: 0 100%;
+  background-size: 100% 1px;
+  background-repeat: repeat-x;
+  transform: scale(1.1);
 }
 body aside {
   display: flex;
@@ -97,7 +119,7 @@ body aside {
   margin: 1rem;
 }
 body aside h2 {
-  font-weight: 100;
+  font-weight: 400;
   font-size: 1.7rem;
 }
 body aside .aside-content {
@@ -177,6 +199,10 @@ body .feinte3 {
   }
   body .body-content h1 {
     font-size: 5rem;
+  }
+  body .body-content h3 {
+    font-size: 2.3rem;
+    font-weight: 400;
   }
   body .body-content aside {
     margin-right: 5rem;
