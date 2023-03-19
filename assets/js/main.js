@@ -28,6 +28,7 @@ jQuery(document).ready(function ($) {
     $(".demo").each(function (index) {
       //Selectionne l'id des a
       if (linkElmt == data.sites[index].nom) {
+        //console.log(linkElmt);
         //console.log(data.sites[index]);
         $("h1").remove();
         if ("h3") $("h3").remove();

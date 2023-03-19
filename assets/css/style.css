@@ -38,6 +38,11 @@ body header {
 body header img {
   width: 4rem;
   height: auto;
+  margin-left: 2rem;
+  transition: transform 0.5s;
+}
+body header img:hover {
+  transform: scale(2);
 }
 body header nav {
   display: flex;
@@ -47,6 +52,7 @@ body header nav {
 body header nav #navbar {
   display: flex;
   align-items: center;
+  margin-right: 2rem;
 }
 body header nav #navbar a {
   margin: 0.5rem;

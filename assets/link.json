@@ -1,9 +1,10 @@
 {
   "sites": [
+    
     {
       "nom": "Portfolio",
-      "text": "<p> Ce portfolio, créé de façon minimaliste a été réalisé avec HTML,CSS JavaScript et construit en une seule page (one single page).<br> <br> Plutôt que d’utiliser plusieurs mises en page du site, il fournit toutes les informations essentielles sur une seule page, à commencer par son travail jusqu’aux coordonnées. C’est un excellent exemple de la façon de mettre en valeur vos compétences et votre expérience de manière minimaliste.</p>",
-      "site": "#",
+      "text": "<p> Ce portfolio, créé de façon minimaliste a été réalisé avec HTML, SCSS et jQuery et construit en une seule page (Single Page Application).<br> En cliquant sur un lien à droite, j'affiche un texte associé à un endroit précis sans recharger toute la page en faisant des requêtes asychrones à mon ficher json. <br> Il me permet de présenter les quelques projets que j'ai pu réalisé.</p>",
+      "site": "https://natalene35.github.io/Portfolio/",
       "github": "https://github.com/Natalene35/Portfolio"
     },
 
@@ -16,23 +17,31 @@
 
     {
       "nom": "PassPhrase",
-      "text": "<p>Petit site réalisé en HTML, CSS et JavaScript permettant, à partir d'un texte, de générer une phrase utilisable comme un mot de passe<br> <br> Il est possible d'apporter son propre texte ou de laisser le texte par défaut. Le programme choisi 5 mots au hasard, les acole et les fait commencer par une majuscule. Quelques améliorations sont prévues.</p>",
+      "text": "<p>Petit site réalisé en HTML, CSS et JavaScript permettant, à partir d'un texte, de générer une phrase utilisable comme un mot de passe<br> <br> Il est possible d'apporter son propre texte ou de laisser le texte par défaut. Le programme choisi 5 mots au hasard, les acolent et les fait commencer par une majuscule. Quelques améliorations sont prévues.</p>",
       "site": "https://natalene35.github.io/Passphrase-generator/",
       "github": "https://github.com/Natalene35/Passphrase-generator"
     },
 
     {
       "nom": "Ape",
-      "text": "<p>Site réalisé en équipe et JavaScript permettant, à partir d'un texte, de générer une phrase utilisable comme un mot de passe<br> <br> Il est possible d'apporter son propre texte ou de laisser le texte par défaut. Le programme choisi 5 mots au hasard, les acole et les fait commencer par une majuscule. Quelques améliorations sont prévues.</p>",
+      "text": "<p>Le site APE Crosmières est un site de communication d'événements et de ventes de l'Association de parents d'éléves de l'ecole de Crosmières. <br> <br> Ce site a   été réalisé en équipe de 5 à la fin de ma formation de Développeur Web et Web Mobile.<br> <br> Nous avons utilisé Vue.js pour le front et Wordpress pour le back en tant qu'API Rest.</p>",
       "site": "https://apecrosmieres.fr/",
       "github": "https://github.com/Natalene35/APE-Crosmieres"
     },
 
     {
       "nom": "Spp",
-      "text": "<p>Site réalisé pour un garage et JavaScript permettant, à partir d'un texte, de générer une phrase utilisable comme un mot de passe<br> <br> Il est possible d'apporter son propre texte ou de laisser le texte par défaut. Le programme choisi 5 mots au hasard, les acole et les fait commencer par une majuscule. Quelques améliorations sont prévues.</p>",
+      "text": "<p>SPP est un site réalisé pour un garage permettant de présenter les prestations du garage et aux utilisateurs de prendre rdv.<br> <br> Il a été réalisé en Symfony et est encore en cours de construction.</p>",
       "site": "#",
       "github": "https://github.com/Natalene35/SPP"
     }
+  ],
+
+  "accueil": [
+    {
+      "nom": "Hello !",
+      "text": "<p>Je m'appelle Natalène et je suis développeuse web et web mobile junior !<br><br>Après une formation de Développeuse Web et Web Mobile de 6 mois avec l'école O'Clock et l'obtention de mon Titre Professionel DWWM fin septembre 2022, je suis actuellement en formation POEC Java avec l'ENI Ecole à Rennes.<br><br> Souhaitant continuer à me former tout en intégrant le monde du travail et gagner en expérience, je suis à la recherche d'une entreprise afin de poursuivre en <strong>alternance</strong>.<br><br> N'hésitez pas à me contacter pour toute opportunité professionnelle !! </p>"
+    }
   ]
+
 }
