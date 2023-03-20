@@ -4,7 +4,7 @@
     {
       "nom": "Portfolio",
       "text": "<p> Ce portfolio, créé de façon minimaliste a été réalisé avec HTML, SCSS et jQuery et construit en une seule page (Single Page Application).<br> En cliquant sur un lien à droite, j'affiche un texte associé à un endroit précis sans recharger toute la page en faisant des requêtes asychrones à mon ficher json. <br> Il me permet de présenter les quelques projets que j'ai pu réalisé.</p>",
-      "site": "https://natalene35.github.io/Portfolio/",
+      "site": "#",
       "github": "https://github.com/Natalene35/Portfolio"
     },
 
